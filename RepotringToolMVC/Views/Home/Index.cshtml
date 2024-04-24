@@ -1,0 +1,29 @@
+﻿@model Model
+
+
+<div class="text-center">
+    <h1 class="display-4">Search Box</h1>
+    <input type="text" id="SearchBoxText" onchange="" />
+</div>
+<div>
+    <table border:1px solid black>
+        <tr>
+            <th>Name</th>
+            <th>Donors</th>
+            <th>Party</th>
+            <th>Total Amount</th>
+        </tr>
+            @{
+                foreach (var item in Model.ReturnData())
+                {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Donors</td>
+                    <td>@item.PartyName</td>
+                    <td>@item.TotalAmount</td>
+                </tr>
+                }
+            }
+            
+    </table>
+</div>
