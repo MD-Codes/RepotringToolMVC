@@ -7,7 +7,7 @@ files:
     destination: /etc/systemd/system
 hooks:
   BeforeInstall:
-    -   location: deply-scripts/bofere_install.sh
+    -   location: deploy-scripts/bofere_install.sh
          timeout:120
         runas: root
   ApplicationStop:
