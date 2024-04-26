@@ -18,3 +18,7 @@ hooks:
     - location: deploy-scripts/start_app.sh
       timeout: 120
       runas: root
+  PublishApp:
+    - location: deploy-scripts/publish_app.sh
+      timeout: 300
+      runas: root
