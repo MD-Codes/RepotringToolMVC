@@ -1,1 +1,0 @@
-﻿systemctl stop webapi.service
