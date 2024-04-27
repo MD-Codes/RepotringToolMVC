@@ -1,1 +1,1 @@
-﻿systemctl restart webapi.service
+﻿sudo systemctl restart webapi.service
