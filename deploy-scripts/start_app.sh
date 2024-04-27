@@ -1,2 +1,3 @@
-﻿sudo systemctl stop webapi.service
-sudo systemctl start webapi.service
+﻿systemctl stop webapi.service
+systemctl daemon-reload
+systemctl restart webapi.service
