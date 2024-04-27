@@ -1,0 +1,1 @@
+﻿systemctl restart webapi.service
