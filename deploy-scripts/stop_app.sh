@@ -1,1 +1,1 @@
-﻿systemctl stop webapi.service
+﻿sudo systemctl stop webapi.service
